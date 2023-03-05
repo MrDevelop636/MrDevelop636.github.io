@@ -20,7 +20,7 @@ function check()
   var user = document.form1.user.value;
   var pass = document.form1.pass.value;
   if(!sprawdz_haslo(user, pass)){
-      alert('Niepoprawne hasĹo!');
+      alert('Niepoprawne haslo!');
   }
   else{
     document.location.href = "strona1.html";
@@ -34,18 +34,18 @@ function check()
 <H2>Wprowadz nawe uzytkownika i haslo:</H2>
 <FORM NAME = "form1">
 <TABLE border="1"><TR>
-<TD bordercolor="#FFFFFF">UĹźytkownik:</TD>
+<TD bordercolor="#FFFFFF">Uzytkownik:</TD>
 <TD bordercolor="#FFFFFF">
   <INPUT TYPE="text" NAME="user">
 </TD>
 </TR><TR>
-<TD bordercolor="#FFFFFF">HasĹo:</TD>
+<TD bordercolor="#FFFFFF">Haslo:</TD>
 <TD bordercolor="#FFFFFF">
   <INPUT TYPE="password" NAME="pass">
 </TD>
 </TR><TR>
 <TD colspan="2" align="center" bordercolor="#FFFFFF">
-  <INPUT TYPE="button" VALUE="WejdĹş" onClick="check();">
+  <INPUT TYPE="button" VALUE="Zaloguj" onClick="check();">
 </TD>
 </TR></TABLE>
 </FORM>
